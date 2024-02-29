@@ -1,11 +1,15 @@
-# Transformer In Depth
+# Exploring Transformers: A Comprehensive Guide
 
 Transformers bought revolution in the filed of AI
-## Impacts of Transformers
-1. Revolution in the field of NLP
-2. Introduction of **Transfer Learning** and **finetuning**
-3. Multimodels Capability
-4. Arise of new field of Generative AI
+## Transforming NLP Landscape
+
+1. **NLP Revolution**: Transformers have redefined the boundaries of natural language understanding and generation, ushering in a new era of NLP capabilities.
+
+2. **Transfer Learning & Fine-tuning**: With transformers, the concepts of transfer learning and fine-tuning have become mainstream, empowering models to adapt to diverse tasks with minimal data.
+
+3. **Multimodal Capabilities**: Beyond text, transformers exhibit remarkable proficiency in processing multimodal inputs, seamlessly integrating visual and textual information for richer understanding.
+
+4. **Generative AI**: The emergence of transformers has catalyzed the rise of generative AI, enabling the creation of sophisticated language models capable of generating coherent and contextually relevant text.
 
 
 Encoder and Decoder Architecture with Attention layer solves the problem of asynchronous challenge in language translation.
@@ -19,7 +23,7 @@ Here we also dicuss about the different techniques of converting Words -> Vector
 
 
 
-## Limitations before the invention of concept of self attention
+## Overcoming Predecessor Limitations
 
 Before the advent of self-attention mechanisms in transformer architectures, traditional word embeddings, such as word2vec or GloVe, faced several limitations in capturing complex semantic relationships and contextual information in language:
 
@@ -35,7 +39,7 @@ Before the advent of self-attention mechanisms in transformer architectures, tra
 
 The introduction of self-attention mechanisms in transformer architectures addressed many of these limitations by enabling models to dynamically capture contextual information and dependencies between words across the entire sequence. Self-attention allows transformers to attend to different parts of the input sequence with varying degrees of importance, effectively capturing long-range dependencies and contextual information, thereby improving the quality of word representations and the performance of NLP tasks.
 
-## Concept of Self-Attention
+## Unveiling Self-Attention: A Transformer's Core
 
 1. **Input Representation**:
 Let's consider a sequence of words: "The cat sat on the mat."
