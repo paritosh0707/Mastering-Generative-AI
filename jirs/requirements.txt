@@ -1,0 +1,5 @@
+python-dotenv
+openai
+jiraone
+from_root
+-e .
